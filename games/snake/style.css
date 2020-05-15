@@ -1,0 +1,33 @@
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+.grid div{
+  height: 20px;
+  width: 20px;
+}
+.snake{
+  background-color: black;
+}
+.apple{
+  background-color: blue;
+}
+.bottomright {
+  border-bottom-right-radius: 20px;
+}
+.bottomleft {
+  border-bottom-left-radius: 18px;
+}
+.topright {
+  border-top-right-radius: 18px;
+}
+.topleft {
+  border-top-left-radius: 18px;
+}
+.tail{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}

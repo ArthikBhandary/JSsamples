@@ -1,0 +1,21 @@
+.square{
+  width:200px;
+  height:200px;
+  background-image: radial-gradient(rgb(18, 116, 6) ,rgb(5, 70, 12));
+  border-style: solid;
+  border-color: black:
+}
+.grid{
+  display: flex;
+  width:650px;
+  height:615px;
+  flex-flow: wrap;
+  align-content: center;
+  align-self: center;
+  margin: 0 auto;
+}
+.mole {
+  background-image: url('mole.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
